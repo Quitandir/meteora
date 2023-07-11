@@ -1,0 +1,105 @@
+.modal {
+    background-color: white;
+    display: none;
+    position: fixed;
+    width: 750px;
+    z-index: 2;    
+    top: 50px;
+    left: 50px;
+    border: none;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.55);
+}
+
+.show {
+    display: flex !important;
+}
+
+.cabecalho__modal {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 2em;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.titulo__modal {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 1em;
+}
+
+.modal__button {
+    margin-left: auto;
+    background: none;
+
+}
+
+.imagem__modal {
+    width: 350px;
+    height: 422px;
+    padding: 10px;
+}
+
+.info__modal {
+    width: 350px;
+    padding-bottom: 10px;
+}
+
+.modal__titulo {
+    color: #212529;
+    font-weight: 700;
+    line-height: 23px;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.modal__descricao {
+    color: #212529;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 2em;
+    border-bottom: #212529 0.5px solid;
+}
+
+.modal__preco {
+    color: #212529;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.modal__vendedor {
+    font-size: 13px;
+    font-weight: 400;
+    color: gray;
+    padding-bottom: 2em;
+    border-bottom: gray 0.5px solid;
+}
+
+@media screen and (max-width:440px) {
+    .modal {
+        flex-direction: column;
+        align-items: center;
+        width: 370px;
+        left: 10px;
+        top: 10px;
+        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.25);
+    }
+
+    .cabecalho__modal {
+        max-width: -webkit-fill-available;
+        padding: 0 1em;
+    }
+    
+    .imagem__modal {
+        width: 311px;
+    }
+}

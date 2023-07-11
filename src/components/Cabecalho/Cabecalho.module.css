@@ -1,0 +1,50 @@
+.cabecalho {
+    background-color: var(--preto);
+    height: 58px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.buscador {
+    display: flex;
+    align-items: center;
+    margin-right: 1.25em;
+    
+}
+
+.botaoBuscador {
+    background-color: transparent;
+    border: 0.5px solid white;
+    color: var(--branco);
+    font-weight: 500;
+    padding: 7px 10px;
+    letter-spacing: 0.457px;
+    margin-left: 5px;
+}
+
+.barraBusca {
+    width: 70%;
+    padding: 0.5em;
+}
+
+
+@media screen and (max-width: 768px) {
+    .buscador {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .links {
+        display: none;
+    }
+
+   
+}

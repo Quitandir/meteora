@@ -1,0 +1,19 @@
+.rodape {
+    text-align: center;
+    margin: 0 auto;
+    padding: 1em 0;
+    background-color: var(--preto);
+    
+}
+
+p {
+    color: var(--branco);
+    font-size: 13px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 420px) {
+    p {
+        font-size: 10px;
+    }
+}
