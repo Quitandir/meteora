@@ -1,0 +1,12 @@
+.barraBusca {
+    padding: 0.5em;
+    max-width: 200px;
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    .buscador {
+        display: none;
+    }
+}

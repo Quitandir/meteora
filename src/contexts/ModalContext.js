@@ -6,9 +6,10 @@ ModalContext.displayName = 'Modal';
 
 export default function ModalProvider({ children }) {
 
+    
     const [estadoModal, setEstadoModal] = useState("");
     const [dadosModal, setDadosModal] = useState({
-        key: 0,
+        id: 0,
         path:'',
         alt:'',
         titulo:'',
@@ -35,11 +36,13 @@ export function useModalContext() {
         setDadosModal( {path, alt, titulo, preco, descricao} )
         
         if(estadoModal === ''){
-            document.body.style.overflow = 'hidden';
-            
-            setEstadoModal("show");     
+            //document.body.style.overflow = 'hidden';            
+            setEstadoModal("show");
+               
+
+
         } else {
-            document.body.style.overflow = 'unset';
+            //document.body.style.overflow = 'unset';
             setEstadoModal('')
         }
 
@@ -49,7 +52,8 @@ export function useModalContext() {
         estadoModal,
         manipulaModal,
         dadosModal,
-        setDadosModal
+        setDadosModal,
+        
 
     }
 }

@@ -1,0 +1,111 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "titulo": "bolsa",
+            "alt": "bolsa",
+            "path": "/assets/imagensCategorias/bolsa.png"
+        },
+        {
+            "id": 2,
+            "titulo": "calça",
+            "alt": "calça",
+            "path": "/assets/imagensCategorias/calca.png"
+        },
+        {
+            "id": 3,
+            "titulo": "calçado",
+            "alt": "calçado",
+            "path": "/assets/imagensCategorias/calcado.png"
+        },
+        {
+            "id": 4,
+            "titulo": "camiseta",
+            "alt": "camiseta",
+            "path": "/assets/imagensCategorias/camiseta.png"
+        },
+        {
+            "id": 5,
+            "titulo": "casaco",
+            "alt": "casaco",
+            "path": "/assets/imagensCategorias/casaco.png"
+        },
+        {
+            "id": 6,
+            "titulo": "óculos",
+            "alt": "óculos",
+            "path": "/assets/imagensCategorias/oculos.png"
+        },
+        {
+            "id": 7,
+            "titulo": "tudo",
+            "alt": "tudo",
+            "path": "https://st3.depositphotos.com/16122460/32523/i/450/depositphotos_325235906-stock-photo-bright-clothes-hangers-yellow-background.jpg"
+        }
+    ],
+    "produtos": [
+        {
+            "id": 1,
+            "titulo": "Camiseta Conforto",
+            "alt": "camiseta",
+            "path": "/assets/imagensBombando/camiseta.png",
+            "descricao": "Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão. Modelagem unissex.",
+            "preco": "R$ 70,00",
+            "categoria": "camiseta"
+        },
+        {
+            "id": 2,
+            "titulo": "Calça Alfaiataria",
+            "alt": "calça",
+            "path": "/assets/imagensBombando/calca.png",
+            "descricao": "Modelo Wide Leg alfaiataria em linho. Uma peça pra vida toda!",
+            "preco": "R$ 180,00",
+            "categoria": "calça"
+        },
+        {
+            "id": 3,
+            "titulo": "Tênis Chunky",
+            "alt": "tênis",
+            "path": "/assets/imagensBombando/tenis.png",
+            "descricao": "Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.",
+            "preco": "R$ 250,00",
+            "categoria": "calçado"
+        },
+        {
+            "id": 4,
+            "titulo": "Jaqueta Jeans",
+            "alt": "jaqueta",
+            "path": "/assets/imagensBombando/jaqueta.png",
+            "descricao": "Modelo unissex oversized com gola de camurça. Atemporal e autêntica!",
+            "preco": "R$ 150,00",
+            "categoria": "casaco"
+        },
+        {
+            "id": 5,
+            "titulo": "Óculos Redondo",
+            "alt": "óculos",
+            "path": "/assets/imagensBombando/oculos.png",
+            "descricao": "Armação metálica em grafite com lentes arredondadas. Sem erro!",
+            "preco": "R$ 120,00",
+            "categoria": "óculos"
+        },
+        {
+            "id": 6,
+            "titulo": "Bolsa Coringa",
+            "alt": "bolsa",
+            "path": "/assets/imagensBombando/bolsa.png",
+            "descricao": "Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por uma vida!",
+            "preco": "R$ 120,00",
+            "categoria": "bolsa"
+        },
+        {
+            "id": 7,
+            "titulo": "Camiseta Geek",
+            "alt": "camiseta",
+            "path": "https://images-americanas.b2w.io/produtos/3124393133/imagens/camisa-geek-masculina-rick-and-morty-c-137-camiseta-nerd-rick-e-morty-rick-sanches-psicodelico/3124393184_1_large.jpg",
+            "descricao": "Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão. Modelagem unissex.",
+            "preco": "R$ 70,00",
+            "categoria": "camiseta"
+        }
+    ]
+}

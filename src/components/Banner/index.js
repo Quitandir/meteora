@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Pagination } from 'swiper/modules';
+import { Autoplay } from 'swiper/modules';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -12,9 +12,8 @@ import styles from './Banner.module.css'
 export default function Banner() {
   return (
     <Swiper
-      modules={[Autoplay, Pagination]}
+      modules={[Autoplay]}
       slidesPerView={1}
-      pagination
       autoplay={{
         delay: 2500,
         disableOnInteraction: false,

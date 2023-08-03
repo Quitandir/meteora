@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Modal.css";
 import { useModalContext } from "contexts/ModalContext";
 import check from './check-circle.svg';
@@ -8,10 +8,14 @@ import FormularioModal from "components/FormularioModal";
 
 function Modal({ className }) {
 
-    const { dadosModal, manipulaModal } = useModalContext();
+    const { dadosModal, manipulaModal, estadoModal } = useModalContext();
+   
+    useEffect(() => {
+        document.getElementById('modal').scrollIntoView({behavior:"smooth"})
+    }, [estadoModal])
 
     return (
-        <div className={`${className} modal`}>
+        <div className={`${className} modal`} id="modal">
             <header className="cabecalho__modal">
                 <img src={check} alt="Círculo com V" />
                 <h3 className="titulo__modal">Confira detalhes sobre o produto</h3>
