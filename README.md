@@ -23,7 +23,7 @@ Para isso, eles solicitaram nossa ajuda como desenvolvedores para criar um site 
 
 ### Como acessar o projeto
 
-
+https://meteora-woad.vercel.app/
 
 ### Tecnologias
 
